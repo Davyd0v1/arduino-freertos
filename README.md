@@ -1,18 +1,18 @@
 # Arduino FreeRTOS
 
-Учебный проект по теме FreeRTOS на Arduino.
+Educational project focused on using FreeRTOS on Arduino.
 
-В репозитории собраны примеры работы с операционной системой реального времени и основной проект с конечным автоматом.
+This repository contains examples of working with a real-time operating system and a main project based on a finite-state machine.
 
-## Содержание репозитория
+## Repository Contents
 
-- `multitasking-example` — пример работы нескольких задач и обработки Serial-команд
-- `queue-example` — пример передачи данных через очередь
-- `semaphore-example` — пример работы с семафором и прерыванием
-- `mutex-example` — пример синхронизации с мьютексом
-- `fsm-control-system` — основной проект лабораторной работы
+- `multitasking-example` — example of running multiple tasks and processing Serial commands
+- `queue-example` — example of data transfer using a queue
+- `semaphore-example` — example of using semaphores and interrupts
+- `mutex-example` — example of synchronization using a mutex
+- `fsm-control-system` — main laboratory project
 
-## Использованные технологии
+## Technologies Used
 
 - Arduino
 - FreeRTOS
@@ -23,36 +23,36 @@
 - Semaphores
 - Mutexes
 
-## Цель работы
+## Project Objective
 
-Разработать программу управления по заданной циклограмме на микроконтроллере Arduino с использованием FreeRTOS и подтвердить её работоспособность.
+Develop a control program based on a given cycle diagram for an Arduino microcontroller using FreeRTOS and verify its operation.
 
-## Как запустить
+## How to Run
 
-1. Открыть проект в Arduino IDE.
-2. Установить библиотеку FreeRTOS, если она ещё не установлена.
-3. Выбрать нужную плату и порт.
-4. Загрузить скетч на плату.
-5. Открыть Serial Monitor для проверки работы.
+1. Open the project in Arduino IDE.
+2. Install the FreeRTOS library if it is not already installed.
+3. Select the required board and port.
+4. Upload the sketch to the board.
+5. Open the Serial Monitor to check the program operation.
 
-## Что демонстрирует проект
+## What the Project Demonstrates
 
-- параллельное выполнение задач;
-- обмен сообщениями между задачами;
-- реакцию на внешние события;
-- использование средств синхронизации FreeRTOS.
+- parallel task execution;
+- message exchange between tasks;
+- response to external events;
+- use of FreeRTOS synchronization mechanisms.
 
-## Скриншоты
-схема сразу для прмеров 1-4
+## Screenshots
+
+Circuit diagram for examples 1–4
 
 <img width="320" height="115" alt="image" src="https://github.com/user-attachments/assets/54ab7c3b-f7e8-4c55-b36a-bbd14305ca08" />
 
-
-схема финального проекта с конечным автоматом и очередью сообщений с помощью FreeRTOS
+Final project diagram with a finite-state machine and message queue implemented using FreeRTOS
 
 <img width="320" height="248" alt="image" src="https://github.com/user-attachments/assets/8fdfdcca-4641-49f5-95ee-f442ff63cfed" />
 
 
-## Автор
+## Autor
 
 Davyd0v1
